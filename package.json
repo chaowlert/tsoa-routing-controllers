@@ -1,7 +1,7 @@
 {
   "name": "tsoa-routing-controllers",
   "description": "Routing controller plugin for Tsoa",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Chaowlert Chaisrichalermpol",
   "license": "MIT",
   "files": [
@@ -11,6 +11,18 @@
     "test": "gulp",
     "prepublish": "gulp prepublish"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chaowlert/tsoa-routing-controllers.git"
+  },
+  "keywords": [
+    "pouchdb",
+    "repository"
+  ],
+  "bugs": {
+    "url": "https://github.com/chaowlert/tsoa-routing-controllers/issues"
+  },
+  "homepage": "https://github.com/chaowlert/tsoa-routing-controllers#readme",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "devDependencies": {
