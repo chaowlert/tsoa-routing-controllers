@@ -1,0 +1,41 @@
+{
+  "name": "tsoa-routing-controller",
+  "description": "Routing controller plugin for Tsoa",
+  "version": "0.1.0",
+  "author": "Chaowlert Chaisrichalermpol",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "gulp",
+    "prepublish": "gulp prepublish"
+  },
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "devDependencies": {
+    "@types/chai": "^4.0.1",
+    "@types/mocha": "^2.2.41",
+    "@types/sinon": "^2.3.2",
+    "chai": "^4.0.2",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-istanbul": "^1.1.2",
+    "gulp-istanbul-report": "0.0.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-mocha": "^3.0.1",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-tslint": "^8.1.1",
+    "gulp-typescript": "^3.2.0",
+    "harmonize": "^2.0.0",
+    "merge2": "^1.1.0",
+    "remap-istanbul": "^0.9.5",
+    "run-sequence": "^2.0.0",
+    "sinon": "^2.3.6",
+    "tslint": "^5.5.0",
+    "typescript": "^2.4.1"
+  },
+  "dependencies": {
+    "tsoa": "file:..\\tsoa"
+  }
+}
